@@ -1,31 +1,47 @@
 <Html>
     
 
-<nav><ul><li><a href="https://monavaroqua.github.io/html-lap/"> <i>home</i></a></li>
-    <li><a href="http://facebook.com" ><i>contact us</i></a></li>
-<li><a href ="https://nouf213.github.io/htmlpage/"><i>menu</i></a></li>
-</li></ul>
-</nav>
-<head><h1> mono desserts </h1></b></title>
-    <script>
+    <nav><ul><li><a href="https://monavaroqua.github.io/html-lap/"> <i>home</i></a></li>
+        <li><a href="http://facebook.com" ><i>contact us</i></a></li>
+    <li><a href ="https://nouf213.github.io/htmlpage/"><i>menu</i></a></li>
+    </li></ul>
+    </nav>
+    <head><h1> mono desserts </h1></b></title>
+        <script> src="./app.js"
         console.log("mona and nouf");
-        alert("Welcome to MONO desserts");
-        var welcomemsg = prompt ("ready to satisfy your tummy?" , "yes") ;
+            alert("Welcome to MONO desserts");
+            var welcomemsg = prompt ("ready to satisfy your tummy?" , "yes") ; 
+            var age = prompt ("are you above 13 years old?");
+            while(age !== "yes" && age !== "no")
+            { 
+                age = prompt ("are you above 13 years old?");
+            }
         
-    </script>
-</head>
-<a href ="https://nouf213.github.io/htmlpage/">
-<img src="mono.jpeg" width="500" heigh="400"alt=" this is a mono logo">
-<body>
-<header>
-</header>
-<main>
-
-</main>
-
-
-<footer> 
-    &copy; mono desserts 
-</footer>
-</body>
-</Html>
+            var itemorder = '';
+            if(age == "yes")
+            {
+                itemorder = '<img src="image/welcome.jpeg" />';
+    
+            }
+            else if(age == "no") 
+            { 
+    itemorder = '<img src="image/permission.gif" />';
+    var numoforder = ("how many orders do you want");
+            }
+        </script>
+    </head>
+    <a href ="https://nouf213.github.io/htmlpage/">
+    <img src="mono.jpeg" width="500" heigh="400"alt=" this is a mono logo">
+    <body>
+    <header>
+    </header>
+    <main>
+    
+    </main>
+    
+    
+    <footer> 
+        &copy; mono desserts 
+    </footer>
+    </body>
+    </Html>
