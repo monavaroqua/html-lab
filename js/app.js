@@ -8,11 +8,11 @@ while (age !== "yes" && age !== "no") {
 
 var itemorder = '';
 if (age == "yes") {
-    itemorder = '<img src="../images/welcome.jpeg" width="500" heigh="400"alt/>';
+    itemorder = '<img src="./../images/welcome.jpeg" width="500" heigh="400"alt/>';
 
 }
 else if (age == "no") {
-    itemorder = '<img src="../images/permission-required.jpg" width="500" heigh="400"alt />';
+    itemorder = '<img src="./../images/permission-required.jpg" width="500" heigh="400"alt />';
 
 }
 document.write(itemorder);
