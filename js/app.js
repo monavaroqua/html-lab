@@ -22,5 +22,6 @@ for(var i= 0; i<numberoforders; i++)
 {
 result = result + itemorder;
 }
+
 document.write(result);
 
