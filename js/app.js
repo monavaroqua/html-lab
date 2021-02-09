@@ -1,6 +1,7 @@
 console.log("mona and nouf");
 alert("Welcome to MONO desserts");
 var welcomemsg = prompt("ready to satisfy your tummy?", "yes");
+var name =prompt("what's your name?");
 var age = prompt("are you above 13 years old?");
 while (age !== "yes" && age !== "no") {
     age = prompt("are you above 13 years old?");
@@ -25,3 +26,7 @@ result = result + itemorder;
 
 document.write(result);
 
+function printGreeting(name) {
+console.log("greeting " + name);
+}
+printGreeting("customer")
