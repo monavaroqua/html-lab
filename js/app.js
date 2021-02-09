@@ -15,4 +15,12 @@ else if (age == "no") {
     itemorder = '<img src="/images/permission-required.jpg" width="500" heigh="400"alt />';
 
 }
-document.write(itemorder)
+document.write(itemorder);
+var numberoforders = prompt(" HOW many people you are ordering for?");
+var result = '';
+for(var i= 0; i<numberoforders; i++)
+{
+result = result + itemorder;
+}
+document.write(result);
+
