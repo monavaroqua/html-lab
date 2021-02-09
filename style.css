@@ -1,0 +1,38 @@
+body {
+    width: 960px;
+    line-height: 1.5;
+    margin: auto;
+
+}
+
+.logo {
+    width: 350px
+}
+header nav {
+    float: right;
+}
+
+header nav ul li {
+    display : inline
+}
+
+.cake {
+    width: 100%;
+}
+
+.cookie {
+    float: left;
+    margin-right: 20px;
+}
+.quotes {
+    background-color: rgb(226, 223, 43);
+    padding: 20px;
+    text-align: center;
+}
+.footer {
+    background-color: black;
+    text-align: center;
+    height: 50px;
+    color: white;
+    line-height: 50px;
+}
